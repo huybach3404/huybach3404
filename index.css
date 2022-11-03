@@ -1,0 +1,26 @@
+.row1 {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.row2 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row2 img {
+    width: 100%;
+
+}
+
+.row2 .text {
+    position: absolute;
+    top: 0px;
+    left: -25px;
+
+}
+
+.relative {
+    position: relative;
+}
