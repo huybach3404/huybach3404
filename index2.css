@@ -6,7 +6,7 @@ body{
 /*==Menu==*/
 #menu ul {
     list-style-type: none;
-    background-color: antiquewhite;
+    background-color: rgb(253, 229, 197);
    text-align: center;
 }
 #menu ul li{
@@ -62,4 +62,14 @@ body{
     margin-right: auto;
     width: 1200px;
 }
-
+.out{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.out{
+    background-color: rgb(253, 229, 197);
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: garamond, serif ;
+}
