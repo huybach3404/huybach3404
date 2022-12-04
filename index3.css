@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* For tablets: */
+    body {
+        background-color: rgb(255, 227, 233);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    body {
+        background-color: rgb(177, 228, 255);
+    }
+}
+
+img {
+    padding: 15px;
+}
+
+.container {
+    background-color: rgb(244, 239, 239);
+}
+
+.out {
+    text-align: center;
+    list-style-type: none;
+}
+
+.text1,
+.text2 {
+    /*margin-left: 110px;*/
+    text-align: center;
+}
